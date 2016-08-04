@@ -1,0 +1,9 @@
+/bin/
+/output/
+/.settings/
+/.gradle/
+/.idea/
+/build/
+.classpath
+j4n-ird-www.iml
+
