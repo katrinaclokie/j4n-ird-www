@@ -1,13 +1,6 @@
 repositories {
 	maven {
-		url "http://olb-repo/artifactory/repo"
-	}
-	ivy {
-		url "http://olb-ci/repo/shared"
-		layout 'pattern', {
-			artifact "[organisation]/[module]/[revision]/jars/[artifact].[ext]"
-			ivy "[organisation]/[module]/[revision]/ivys/ivy.xml"
-		}
+		url "https://repo1.maven.org/maven2"
 	}
 	flatDir {
 		dirs 'lib'
