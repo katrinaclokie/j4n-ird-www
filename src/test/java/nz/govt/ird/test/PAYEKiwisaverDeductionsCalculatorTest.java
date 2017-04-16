@@ -40,7 +40,7 @@ public class PAYEKiwisaverDeductionsCalculatorTest {
     @Test
     public void testDefaultValues() {
         UserAndTaxYearPage userTaxYearPage = new UserAndTaxYearPage(driver);
-        userTaxYearPage.enterUserAndTaxDetails("Employee", "1 April 2016 to 31 March 2017");
+        userTaxYearPage.enterUserAndTaxDetails("Employee", "1 April 2017 to 31 March 2018");
 
         EmployeeDetailsPage employeeDetailsPage = new EmployeeDetailsPage(driver);
         employeeDetailsPage.enterPayDetails("Test User", "TEST1234", "M", "Weekly", "1,024.00", "Net");
